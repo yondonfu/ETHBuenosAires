@@ -1,0 +1,20 @@
+{
+  "name": "ETHBuenosAires",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "client": "truffle exec client/index.js --network ganache",
+    "mine": "truffle exec client/mine.js --network ganache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "1.9.0",
+    "prompt-sync": "^4.1.6"
+  }
+}
